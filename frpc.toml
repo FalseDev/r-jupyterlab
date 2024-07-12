@@ -1,0 +1,13 @@
+serverAddr = "100.74.217.55"
+serverPort = 7000
+
+[[proxies]]
+
+
+name = "web"
+type = "http"
+localPort = 8000
+customDomains = [
+]
+
+
