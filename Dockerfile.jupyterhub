@@ -3,7 +3,7 @@
 ARG JUPYTERHUB_VERSION
 FROM quay.io/jupyterhub/jupyterhub:$JUPYTERHUB_VERSION
 
-RUN apt-get update && apt-get install r-base-core r-cran-devtools r-cran-irkernel --no-install-recommends -y
+# RUN apt-get update && apt-get install r-base-core r-cran-devtools r-cran-irkernel --no-install-recommends -y
 
 # Install dockerspawner, nativeauthenticator
 # hadolint ignore=DL3013
